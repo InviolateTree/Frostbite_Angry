@@ -6,15 +6,14 @@
 int mian()
 {
 	/*Namespace*/
-	namespace std;
 	/*User Input proerties*/
-	string User_Input;
+	int UserInput;
 	/*statements*/
-	cout<<"Hello World!"<<endl<<"What can I do for you today? ";
-	cin>>User_Input>>endl;
-	if(User_Input="Clean my room")
+	std::cout<<"Hello World!"<<std::endl<<"What can I do for you today? ";
+	std::cin>>UserInput;
+	if(UserInput,"1")
 	{
-		cout<<"God Damit Jim I'm a computer not a maid!"<<endl;
+		std::cout<<"God Damit Jim I'm a computer not a maid!"<<std::endl;
 	}
 	system("pause");
 	return 0;
